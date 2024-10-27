@@ -1,0 +1,43 @@
+﻿body {
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 120px;
+}
+
+    .container h1 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+.loginForm {
+    background-color: rgb(128, 128, 128, 0.4);
+    border-radius: 32px;
+}
+
+.flex-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+    .flex-input td {
+        font-size: 16px;
+    }
+
+input[type="email"], input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btnLogin {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}

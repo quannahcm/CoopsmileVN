@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "RegisterView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link href="~/Content/Login/RegisterView.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <form class="registerForm">
+            <h1>Tạo tài khoản</h1>
+            <table class="container">
+                <tr class="flex-input">
+                    <td>Họ</td>
+                    <td><input type="email" name="Email" value="" /></td>
+                </tr>
+                <tr class="flex-input">
+                    <td>Tên:</td>
+                    <td><input type="email" name="Email" value="" /></td>
+                </tr>
+                <tr class="flex-input">
+                    <td>Email:</td>
+                    <td><input type="email" name="Email" value="" /></td>
+                </tr>
+                <tr class="flex-input">
+                    <td>Mật khẩu:</td>
+                    <td><input type="password" name="Password" value="" /></td>
+                </tr>
+                <tr class="flex-input">
+                    <td><a href="~/Home/Index"><input class="btnLogin" type="button" name="name" value="Đăng ký" /></a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+

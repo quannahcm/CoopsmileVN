@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "LoginView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="~/Content/Login/LoginView.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <form class="loginForm">
+            <h1>Tài khoản</h1>
+            <table class="container">
+                <tr class="flex-input">
+                    <td>Email:</td>
+                    <td><input type="email" name="Email" value="" /></td>
+                </tr>
+                <tr class="flex-input">
+                    <td>Password:</td>
+                    <td><input type="password" name="Password" value="" /></td>
+                </tr>
+                <tr class="flex-input">
+                    <td><a href="~/Home/Index"><input class="btnLogin" type="button" name="name" value="Đăng nhập" /></a></td>
+                    <td class="btn"><a href="/Login/RegisterView">Đăng ký</a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
